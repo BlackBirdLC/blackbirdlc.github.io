@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+/* Layout Containers */
+#body_content {
+  width: 630px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo-wrapper {
+  text-align: center;
+  margin-bottom: 0;
+  position: relative;
+}
+
+/* Navigation */
+nav.navbar {
+  font-size: 14px;
+  margin: 14px 0 0;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.navbar-list li a {
+  color: #a1a1a1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-list li a:hover {
+  color: #eeeeee;
+}
+
+.navbar-list li.current-page a {
+  color: #ffffff;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* Content */
+.content,
+.homepage .content {
+  width: 630px;
+  margin: 30px auto 0;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+.homepage .content {
+  margin-top: -100px;
+}
+
+/* Typography in Content */
+.content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 40px;
+}
+
+.homepage .content h1 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  margin: 40px 0 10px;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 30px 0 10px;
+}
+
+.content p {
+  line-height: 20px;
+}
+
+/* Footer */
+.footer {
+  margin: 120px auto 30px;
+}
+
+.footer img {
+  opacity: 0.6;
+}
